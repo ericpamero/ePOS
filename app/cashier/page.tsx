@@ -2,25 +2,25 @@ export default function Dashboard() {
   return (
     <div className="min-h-screen w-full bg-zinc-50 dark:bg-black flex">
       {/* Sidebar */}
-      <aside className="w-64 bg-white dark:bg-zinc-900 shadow-xl p-6 flex flex-col">
-        <h1 className="text-2xl font-bold text-green-600 mb-8">ePOS</h1>
+      <aside className="w-64 bg-green-900 dark:bg-zinc-900 shadow-xl p-6 flex flex-col">
+        <h1 className="text-2xl font-bold text-white mb-8">ePOS</h1>
         <nav className="flex flex-col gap-4">
-          <a className="text-sm font-semibold hover:text-green-600 transition-colors" href="#">
+          <a className="text-sm font-semibold text-gray-200 hover:text-green-600 transition-colors" href="#">
             Dashboard
           </a>
-          <a className="text-sm font-semibold hover:text-green-600 transition-colors" href="#">
+          <a className="text-sm font-semibold text-gray-200 hover:text-green-600 transition-colors" href="#">
             Sales
           </a>
-          <a className="text-sm font-semibold hover:text-green-600 transition-colors" href="#">
+          <a className="text-sm font-semibold text-gray-200 hover:text-green-600 transition-colors" href="#">
             Inventory
           </a>
-          <a className="text-sm font-semibold hover:text-green-600 transition-colors" href="#">
+          <a className="text-sm font-semibold text-gray-200 hover:text-green-600 transition-colors" href="#">
             Products
           </a>
-          <a className="text-sm font-semibold hover:text-green-600 transition-colors" href="#">
+          <a className="text-sm font-semibold text-gray-200 hover:text-green-600 transition-colors" href="#">
             Reports
           </a>
-          <a className="text-sm font-semibold hover:text-green-600 transition-colors" href="#">
+          <a className="text-sm font-semibold text-gray-200 hover:text-green-600 transition-colors" href="#">
             Settings
           </a>
         </nav>
